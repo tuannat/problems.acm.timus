@@ -1,0 +1,1 @@
+print reduce((lambda x, y: x * y), [int(x) for x in raw_input().split(' ')])*2
